@@ -1,0 +1,40 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    
+}
+tr.first td{
+   background-color: darkcyan; 
+   border-top: 1px solid black;   
+   border-bottom: 1px solid black;
+   color: white;
+   font-weight: bold;
+}
+tr.first .cell-2{
+    background-color: lightblue;
+}
+td{
+   border-bottom: 1px solid lightgray;
+   padding: 10px;
+   width: 33%;
+}
+.cell-1{
+   text-align: right;
+}
+.cell-2{
+   text-align: center;
+   padding: 0 15px;
+   
+}
+.line{  
+   background-color: lightyellow;  
+}
+.text{
+   width: 100%; 
+}
